@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regiatration Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <form action=""  class="form1">
+          <div class="name">
+              <label for="name">Name:</label>
+              <input type="text" id="name" placeholder="Enter Name" name="name"   required><br>
+          </div>
+          <div class="age">
+              <label for="age">Age:</label>
+              <input type="number" id="age" placeholder="Enter Age" required><br>
+          </div>
+          <div class="mail">
+              <label for="Email">Email:</label>
+              <input type="email" name="email" id="mail" placeholder="Enter email" required><br>
+          </div>
+          <div class="pwd">
+              <label for="psw">Password:</label>
+              <input type="password" id="psw" name="password" placeholder="Enter Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required><br>
+          
+          </div>
+          <div class="button">
+              <input type="submit" value="Submit" id="subbut">
+          </div>
+    </form>
+     
+
+  <div id="" class="form2">
+      <form action="" id="register"><br></form>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
